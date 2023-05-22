@@ -39,9 +39,9 @@ public class EmploiTemps {
             ps.setString(3, heure_fin);
             rs = ps.executeQuery();
             if (rs.next()) {
-                Component EmploiTemps = null;
-
-                System.out.println("La salle " + salle + " est déjà occupée à la même heure.");
+//                Component EmploiTemps = null;
+                String message = "La salle " + salle + " est déjà occupée à la même heure.";
+                JOptionPane.showMessageDialog(null, message);
                 return true;
             }
         } catch (SQLException ex) {

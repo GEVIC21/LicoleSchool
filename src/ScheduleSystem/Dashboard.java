@@ -19,7 +19,7 @@ public class Dashboard {
     PreparedStatement ps;
 
     public void getDashboardValue(JTable table, String searchValue) {
-        String sql = "select * from emploitemps where concat(enseignant,matiere,heure) like ?  order by id desc";
+        String sql = "select * from emploitemps where concat(enseignant,cours,heure_debut,heure_fin) like ?  order by id desc";
         try {
             ps = con.prepareStatement(sql);
             ps.setString(1, "%" + searchValue + "%");
@@ -27,13 +27,12 @@ public class Dashboard {
             DefaultTableModel model = (DefaultTableModel) table.getModel();
             Object[] row;
             while (rs.next()) {
-                row = new Object[4];
-                row[0] = rs.getInt(1);
-                row[1] = rs.getString(2);
-                row[2] = rs.getString(3);
-                row[3] = rs.getString(4);
-                
-              
+                row = new Object[6];
+                String concatValue = rs.getString(3) + " à " + rs.getString(4); // Concaténation de row[2] avec row[1]
+                row[0] = rs.getString(2);
+                row[1] = rs.getString(6);
+//                row[2] = rs.getString(4);
+                row[2] = concatValue;
 
                 model.addRow(row);
 
