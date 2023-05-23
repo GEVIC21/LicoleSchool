@@ -5,12 +5,12 @@
         <group>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/EmploiTemps.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Home.java</file>
+            <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Login.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Classe.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Matiere.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Dashboard.java</file>
-            <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/db/MyConnection.java</file>
-            <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Enseignant.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Cours.java</file>
+            <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/Enseignant.java</file>
             <file>file:/E:/COURS/SEMESTRE4/JAVA/ScheduleManagementSchool/src/ScheduleSystem/AnneeScolaire.java</file>
         </group>
     </open-files>
